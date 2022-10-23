@@ -38,7 +38,10 @@ allprojects {
     dependencies {
 //    api(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
         compileOnly("org.spigotmc:spigot-api:1.18.2-R0.1-SNAPSHOT")
-
+        compileOnly("io.github.magicpluginteam:guiapi:+")
+        compileOnly("io.github.magicpluginteam:serialize:+")
+        compileOnly("io.github.magicpluginteam:lang:+")
+        compileOnly("io.github.magicpluginteam:message:+")
     }
 
     lateinit var sourcesArtifact: PublishArtifact

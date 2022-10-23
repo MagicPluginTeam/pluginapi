@@ -1,0 +1,4 @@
+name: PluginCore
+version: Build 1
+api-version: 1.19
+main: io.github.magicpluginteam.pluginapi.Plugin
